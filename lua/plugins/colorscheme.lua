@@ -10,4 +10,11 @@ return {
       },
     },
   },
+  {
+    "rose-pine/neovim",
+    name = "rose-pine",
+  },
+  {
+    "AlexvZyl/nordic.nvim",
+  },
 }
