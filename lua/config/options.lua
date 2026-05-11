@@ -3,3 +3,7 @@
 -- Add any additional options here
 
 vim.opt.scrolloff = 10
+vim.opt.shada:remove("/")
+
+-- Workspace root
+vim.g.root_spec = { { ".git", "Makefile" }, "lsp", "cwd" }
